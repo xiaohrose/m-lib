@@ -3,6 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
+        "build": "DEBUG=father* father build",
+        "dev": "father dev",
         "test": "echo \"Error: no test specified\" && exit 1",
         "release": "standard-version"
     },
@@ -14,6 +16,8 @@
         "decimal.js": "^10.5.0"
     },
     "devDependencies": {
+        "dumi": "^2.4.21",
+        "father": "^4.5.5",
         "standard-version": "^9.5.0"
     }
 }
